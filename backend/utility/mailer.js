@@ -7,14 +7,14 @@ let transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-        user: 'shivansh.sahai03@gmail.com',
-        pass: 'shivansh03a'
+        user: 'xxxxx@gmail.com',
+        pass: 'xxxxxxx'
     }
 });
 
 // setup email data with unicode symbols
 let mailOptions = {
-    from: 'shivansh.sahai03@gmail.com', // sender address
+    from: 'xxxxx', // sender address
     to: 'props.Email', // list of receivers
     subject: 'props.Subject', // Subject line
     text: `${props.Msg}`, // plain text body       // we need Subject and Msg from the frontend rest id would resolve.
