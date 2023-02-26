@@ -1,0 +1,9 @@
+.Sender
+{
+    margin:100px;
+    border:1px dashed black;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
